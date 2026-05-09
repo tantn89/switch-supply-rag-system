@@ -1,0 +1,37 @@
+# Render Blueprint - https://render.com/docs/blueprint-spec
+# Deploy with: render dashboard → New → Blueprint → connect repo
+services:
+  - type: web
+    name: switch-supply-rag-backend
+    runtime: docker
+    dockerfilePath: ./backend/Dockerfile
+    dockerContext: .
+    plan: free
+    healthCheckPath: /health
+    autoDeploy: true
+    envVars:
+      # Render free tier 512MB cap forces BM25-only retrieval (no vector store).
+      # The hybrid pipeline still works in local dev where memory is plentiful;
+      # set EMBEDDING_PROVIDER=fastembed (or openai/sentence-transformers) there.
+      - key: LLM_PROVIDER
+        value: groq
+      - key: EMBEDDING_PROVIDER
+        value: none
+      - key: GROQ_API_KEY
+        sync: false                       # set in Render dashboard, not in repo
+      - key: GROQ_MODEL
+        value: llama-3.3-70b-versatile
+      - key: DATA_DIR
+        value: /app/data
+      - key: CHROMA_PERSIST_DIR
+        value: /app/chroma_db
+      - key: ALLOWED_ORIGINS
+        value: https://switch-supply-rag.vercel.app,http://localhost:3000
+      - key: LOG_LEVEL
+        value: INFO
+      - key: RETRIEVAL_TOP_K
+        value: "5"
+      - key: HYBRID_RRF_K
+        value: "60"
+      - key: CONFIDENCE_THRESHOLD
+        value: "0.3"

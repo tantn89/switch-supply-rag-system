@@ -1,0 +1,29 @@
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    container_name: switch-supply-rag-backend
+    ports:
+      - "8000:8000"
+    env_file:
+      - ./backend/.env
+    volumes:
+      # Mount source for hot reload during dev
+      - ./backend/app:/app/app:ro
+      # Read-only data files
+      - ./data:/app/data:ro
+      # Persist vector store between restarts
+      - chroma_data:/app/chroma_db
+    # Hot reload for dev (override CMD)
+    command: uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-fsS", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      start_period: 120s
+      retries: 3
+
+volumes:
+  chroma_data:

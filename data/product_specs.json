@@ -1,0 +1,625 @@
+{
+  "products": [
+    {
+      "sku": "SKU-LED-100",
+      "technical_specs": {
+        "voltage": "120V AC",
+        "wattage": "9W",
+        "lumens": 800,
+        "color_temperature": "3000K Warm White",
+        "lifespan_hours": 25000,
+        "certifications": ["UL", "Energy Star", "FCC"],
+        "base_type": "E26 Medium",
+        "dimmable": false,
+        "cri": 80,
+        "beam_angle": 220
+      },
+      "packaging": {
+        "unit_weight_kg": 0.08,
+        "case_qty": 24,
+        "case_dimensions_cm": [30, 20, 15],
+        "carton_weight_kg": 2.5,
+        "pallet_qty": 2400
+      },
+      "marketing": {
+        "description": "Energy-efficient LED bulb perfect for residential and commercial use. Provides warm white lighting equivalent to traditional 60W incandescent bulbs.",
+        "features": ["Long-lasting 25,000 hour lifespan", "Instant-on with no warm-up time", "Mercury-free and eco-friendly", "80+ CRI for true color rendering"],
+        "applications": ["Home lighting", "Office spaces", "Retail displays", "Hospitality venues"]
+      },
+      "compliance": {
+        "rohs": true,
+        "reach": true,
+        "energy_star": true,
+        "warranty_years": 3
+      }
+    },
+    {
+      "sku": "SKU-LED-200",
+      "technical_specs": {
+        "voltage": "120-277V AC",
+        "wattage": "18W",
+        "lumens": 2200,
+        "color_temperature": "4000K Cool White",
+        "lifespan_hours": 50000,
+        "certifications": ["UL", "DLC", "Energy Star"],
+        "tube_length": "4ft (1200mm)",
+        "dimmable": true,
+        "cri": 85,
+        "beam_angle": 120
+      },
+      "packaging": {
+        "unit_weight_kg": 0.35,
+        "case_qty": 12,
+        "case_dimensions_cm": [125, 12, 10],
+        "carton_weight_kg": 5.2,
+        "pallet_qty": 480
+      },
+      "marketing": {
+        "description": "High-efficiency T8 LED tube designed to replace fluorescent tubes. Suitable for commercial and industrial applications.",
+        "features": ["50,000 hour lifespan", "0-10V dimming compatible", "Shatterproof construction", "No flicker technology"],
+        "applications": ["Office lighting", "Warehouse facilities", "Schools and universities", "Parking garages"]
+      },
+      "compliance": {
+        "rohs": true,
+        "reach": true,
+        "dlc_premium": true,
+        "warranty_years": 5
+      }
+    },
+    {
+      "sku": "SKU-LED-300",
+      "technical_specs": {
+        "voltage": "120-277V AC",
+        "wattage": "36W",
+        "lumens": 4200,
+        "color_temperature": "5000K Daylight",
+        "lifespan_hours": 50000,
+        "certifications": ["UL", "DLC", "cUL"],
+        "dimensions": "600x600mm (2x2 ft)",
+        "dimmable": true,
+        "cri": 90,
+        "beam_angle": 110
+      },
+      "packaging": {
+        "unit_weight_kg": 1.8,
+        "case_qty": 4,
+        "case_dimensions_cm": [65, 65, 12],
+        "carton_weight_kg": 8.5,
+        "pallet_qty": 80
+      },
+      "marketing": {
+        "description": "Premium LED panel light with high CRI for superior color rendering. Ideal for offices, hospitals, and retail environments.",
+        "features": ["Ultra-slim 12mm profile", "Edge-lit design for uniform light", "90+ CRI for true colors", "DALI dimming available"],
+        "applications": ["Office ceiling grids", "Healthcare facilities", "Retail showrooms", "Educational institutions"]
+      },
+      "compliance": {
+        "rohs": true,
+        "reach": true,
+        "dlc_premium": true,
+        "warranty_years": 5
+      }
+    },
+    {
+      "sku": "SKU-LED-400",
+      "technical_specs": {
+        "voltage": "120V AC",
+        "wattage": "12W",
+        "lumens": 1050,
+        "color_temperature": "3000K Warm White",
+        "lifespan_hours": 50000,
+        "certifications": ["UL", "Energy Star", "IC Rated"],
+        "cutout_diameter": "6 inch (152mm)",
+        "dimmable": true,
+        "cri": 90,
+        "beam_angle": 90
+      },
+      "packaging": {
+        "unit_weight_kg": 0.45,
+        "case_qty": 12,
+        "case_dimensions_cm": [40, 35, 25],
+        "carton_weight_kg": 6.8,
+        "pallet_qty": 480
+      },
+      "marketing": {
+        "description": "Recessed LED downlight with adjustable color temperature. Perfect for residential and commercial retrofit applications.",
+        "features": ["IC rated for direct insulation contact", "Airtight construction", "Selectable CCT (3000K/4000K/5000K)", "Smooth dimming to 10%"],
+        "applications": ["Residential ceilings", "Hotel rooms", "Restaurants", "Conference rooms"]
+      },
+      "compliance": {
+        "rohs": true,
+        "energy_star": true,
+        "title_24": true,
+        "warranty_years": 5
+      }
+    },
+    {
+      "sku": "SKU-LED-500",
+      "technical_specs": {
+        "voltage": "12V DC",
+        "wattage_per_meter": "14.4W",
+        "lumens_per_meter": 1200,
+        "color_type": "RGB+White",
+        "lifespan_hours": 50000,
+        "certifications": ["CE", "RoHS"],
+        "strip_length": "5 meters",
+        "waterproof_rating": "IP65",
+        "led_density": "60 LEDs/meter",
+        "controllable": true
+      },
+      "packaging": {
+        "unit_weight_kg": 0.38,
+        "case_qty": 20,
+        "case_dimensions_cm": [22, 22, 25],
+        "carton_weight_kg": 9.2,
+        "includes": ["Remote control", "Power adapter", "Mounting clips"]
+      },
+      "marketing": {
+        "description": "Flexible RGB LED strip with white light option. Includes remote control and adapter for easy installation.",
+        "features": ["16 million color options", "Multiple dynamic modes", "Cuttable every 3 LEDs", "3M adhesive backing", "Music sync capability"],
+        "applications": ["Accent lighting", "Under cabinet lighting", "TV backlighting", "Architectural features", "Event decoration"]
+      },
+      "compliance": {
+        "rohs": true,
+        "reach": true,
+        "warranty_years": 2
+      }
+    },
+    {
+      "sku": "SKU-LED-600",
+      "technical_specs": {
+        "voltage": "120-277V AC",
+        "wattage": "50W",
+        "lumens": 6500,
+        "color_temperature": "5000K Daylight",
+        "lifespan_hours": 50000,
+        "certifications": ["UL", "DLC", "Wet Location"],
+        "beam_angle": 110,
+        "dimmable": false,
+        "operating_temp": "-40°C to +50°C",
+        "waterproof_rating": "IP66"
+      },
+      "packaging": {
+        "unit_weight_kg": 2.2,
+        "case_qty": 4,
+        "case_dimensions_cm": [35, 30, 28],
+        "carton_weight_kg": 10.5,
+        "mounting_bracket": "Included"
+      },
+      "marketing": {
+        "description": "Heavy-duty LED floodlight for outdoor security and area lighting. Weather-resistant construction for year-round use.",
+        "features": ["Die-cast aluminum housing", "Tempered glass lens", "Adjustable mounting bracket", "Instant-on in any weather", "Energy savings up to 80%"],
+        "applications": ["Building facades", "Parking lots", "Security lighting", "Sports fields", "Construction sites"]
+      },
+      "compliance": {
+        "rohs": true,
+        "dlc_premium": true,
+        "dark_sky_friendly": false,
+        "warranty_years": 5
+      }
+    },
+    {
+      "sku": "SKU-LED-700",
+      "technical_specs": {
+        "voltage": "120-277V AC",
+        "wattage": "150W",
+        "lumens": 21000,
+        "color_temperature": "5000K Daylight",
+        "lifespan_hours": 60000,
+        "certifications": ["UL", "DLC Premium", "cUL"],
+        "beam_angle": 120,
+        "dimmable": true,
+        "operating_temp": "-30°C to +50°C",
+        "waterproof_rating": "IP65"
+      },
+      "packaging": {
+        "unit_weight_kg": 5.8,
+        "case_qty": 1,
+        "case_dimensions_cm": [45, 40, 25],
+        "carton_weight_kg": 7.2,
+        "mounting_options": ["Hook", "Surface mount", "Pendant"]
+      },
+      "marketing": {
+        "description": "Industrial-grade LED high bay fixture for warehouses and manufacturing facilities. Delivers exceptional light output with minimal maintenance.",
+        "features": ["21,000 lumens high output", "Meanwell driver for reliability", "0-10V dimming", "5G vibration rated", "Tool-free installation"],
+        "applications": ["Warehouses", "Manufacturing plants", "Distribution centers", "Gymnasiums", "Aircraft hangars"]
+      },
+      "compliance": {
+        "rohs": true,
+        "dlc_premium": true,
+        "warranty_years": 7
+      }
+    },
+    {
+      "sku": "SKU-LED-800",
+      "technical_specs": {
+        "voltage": "120-277V AC",
+        "wattage": "100W",
+        "lumens": 14000,
+        "color_temperature": "5000K Daylight",
+        "lifespan_hours": 100000,
+        "certifications": ["UL", "DLC", "LM-79", "LM-80"],
+        "beam_angle": 140,
+        "dimmable": true,
+        "operating_temp": "-40°C to +60°C",
+        "waterproof_rating": "IP66"
+      },
+      "packaging": {
+        "unit_weight_kg": 4.5,
+        "case_qty": 2,
+        "case_dimensions_cm": [52, 28, 22],
+        "carton_weight_kg": 11.0,
+        "mounting_arm": "Included"
+      },
+      "marketing": {
+        "description": "Professional LED street light with photocell sensor. Engineered for municipal and highway lighting with extended lifespan.",
+        "features": ["100,000 hour L70 lifespan", "Surge protection 10kV", "Photocell included", "Type III optics", "Tool-less maintenance"],
+        "applications": ["Street lighting", "Highway illumination", "Parking area lights", "Pathway lighting", "Campus lighting"]
+      },
+      "compliance": {
+        "rohs": true,
+        "dlc_premium": true,
+        "dark_sky_compliant": true,
+        "warranty_years": 10
+      }
+    },
+    {
+      "sku": "SKU-LED-900",
+      "technical_specs": {
+        "voltage": "120V AC",
+        "wattage": "15W",
+        "lumens": 1350,
+        "color_temperature": "3000K Warm White",
+        "lifespan_hours": 50000,
+        "certifications": ["UL", "Energy Star"],
+        "beam_angle": 36,
+        "dimmable": true,
+        "cri": 90,
+        "track_compatibility": "H-type"
+      },
+      "packaging": {
+        "unit_weight_kg": 0.28,
+        "case_qty": 20,
+        "case_dimensions_cm": [45, 35, 20],
+        "carton_weight_kg": 7.5,
+        "track_adapter": "Included"
+      },
+      "marketing": {
+        "description": "Adjustable LED track light head for retail and gallery lighting. High CRI ensures accurate color representation.",
+        "features": ["90+ CRI for true colors", "350° horizontal rotation", "90° vertical tilt", "Narrow 36° beam", "Smooth dimming"],
+        "applications": ["Retail stores", "Art galleries", "Museums", "Showrooms", "Residential accent"]
+      },
+      "compliance": {
+        "rohs": true,
+        "energy_star": true,
+        "warranty_years": 3
+      }
+    },
+    {
+      "sku": "SKU-LED-1000",
+      "technical_specs": {
+        "voltage": "120V AC",
+        "wattage": "14W",
+        "lumens": 1600,
+        "color_temperature": "5000K Daylight",
+        "lifespan_hours": 25000,
+        "certifications": ["UL", "Energy Star", "FCC"],
+        "base_type": "E26 Medium",
+        "dimmable": true,
+        "cri": 80,
+        "beam_angle": 200
+      },
+      "packaging": {
+        "unit_weight_kg": 0.12,
+        "case_qty": 24,
+        "case_dimensions_cm": [32, 22, 18],
+        "carton_weight_kg": 3.8,
+        "pallet_qty": 2400
+      },
+      "marketing": {
+        "description": "Bright LED bulb equivalent to 100W incandescent. Ideal for task lighting and areas requiring high illumination.",
+        "features": ["1600 lumens bright output", "Dimmable 10-100%", "Instant full brightness", "Energy saving", "Cool daylight color"],
+        "applications": ["Task lighting", "Workshops", "Garages", "Commercial spaces", "High ceiling areas"]
+      },
+      "compliance": {
+        "rohs": true,
+        "energy_star": true,
+        "warranty_years": 3
+      }
+    },
+    {
+      "sku": "SKU-ACC-400",
+      "technical_specs": {
+        "voltage": "120V AC",
+        "wattage": "9W",
+        "connectivity": "WiFi 2.4GHz",
+        "lumens": 800,
+        "color_temperature_range": "2700K-6500K",
+        "lifespan_hours": 25000,
+        "certifications": ["FCC", "CE"],
+        "base_type": "E26",
+        "dimmable": true,
+        "smart_features": ["Voice control", "Scheduling", "Remote access", "Color changing"]
+      },
+      "packaging": {
+        "unit_weight_kg": 0.15,
+        "case_qty": 12,
+        "case_dimensions_cm": [28, 22, 18],
+        "carton_weight_kg": 2.4
+      },
+      "marketing": {
+        "description": "Smart WiFi LED bulb compatible with Alexa and Google Home. Control from anywhere via smartphone app.",
+        "features": ["Voice control ready", "16 million colors", "Schedule on/off times", "No hub required", "Group control"],
+        "applications": ["Smart homes", "Mood lighting", "Security simulation", "Energy management"]
+      },
+      "compatibility": {
+        "alexa": true,
+        "google_home": true,
+        "apple_homekit": false,
+        "ifttt": true
+      },
+      "compliance": {
+        "rohs": true,
+        "warranty_years": 2
+      }
+    },
+    {
+      "sku": "SKU-SOL-100",
+      "technical_specs": {
+        "power_source": "Solar panel + Battery",
+        "solar_panel": "2W Polycrystalline",
+        "battery": "3.7V 2200mAh Li-ion",
+        "led_power": "0.5W",
+        "lumens": 50,
+        "color_temperature": "3000K Warm White",
+        "charging_time": "6-8 hours",
+        "runtime": "8-10 hours",
+        "waterproof_rating": "IP65",
+        "material": "Stainless steel + Glass"
+      },
+      "packaging": {
+        "unit_weight_kg": 0.42,
+        "case_qty": 24,
+        "case_dimensions_cm": [55, 38, 28],
+        "carton_weight_kg": 12.5,
+        "ground_stake": "Included"
+      },
+      "marketing": {
+        "description": "Solar-powered garden pathway light. Automatic on/off with dusk-to-dawn sensor. No wiring required.",
+        "features": ["Automatic operation", "Weather resistant", "Easy installation", "Eco-friendly", "No electricity cost"],
+        "applications": ["Garden pathways", "Driveways", "Yards", "Patios", "Landscape lighting"]
+      },
+      "compliance": {
+        "rohs": true,
+        "warranty_years": 1
+      }
+    },
+    {
+      "sku": "SKU-EMG-100",
+      "technical_specs": {
+        "voltage": "120-277V AC",
+        "wattage": "3W LED",
+        "battery": "3.6V 1800mAh NiCd",
+        "runtime_emergency": "90 minutes",
+        "lumens_emergency": 200,
+        "certifications": ["UL924", "NFPA 101", "IBC"],
+        "test_button": "Included",
+        "remote_capable": true,
+        "mounting": "Universal"
+      },
+      "packaging": {
+        "unit_weight_kg": 1.2,
+        "case_qty": 12,
+        "case_dimensions_cm": [42, 32, 28],
+        "carton_weight_kg": 16.5,
+        "mounting_hardware": "Included"
+      },
+      "marketing": {
+        "description": "UL924 listed emergency exit sign with LED technology. Provides reliable illumination during power outages.",
+        "features": ["90-minute runtime", "Self-testing option", "Universal mounting", "Green or red available", "Low maintenance"],
+        "applications": ["Commercial buildings", "Schools", "Hospitals", "Hotels", "Office buildings"]
+      },
+      "compliance": {
+        "ul924": true,
+        "nfpa_101": true,
+        "ada_compliant": true,
+        "warranty_years": 5
+      }
+    },
+    {
+      "sku": "SKU-FIX-300",
+      "technical_specs": {
+        "voltage": "120V AC",
+        "max_wattage": "60W",
+        "bulb_type": "E26 (not included)",
+        "material": "Metal + Glass",
+        "finish": "Oil-rubbed Bronze",
+        "cord_length": "72 inches adjustable",
+        "dimmable": true,
+        "certifications": ["UL Damp Location"],
+        "weight_capacity": "15 lbs"
+      },
+      "packaging": {
+        "unit_weight_kg": 2.8,
+        "case_qty": 4,
+        "case_dimensions_cm": [38, 38, 35],
+        "carton_weight_kg": 13.5,
+        "installation_kit": "Included"
+      },
+      "marketing": {
+        "description": "Industrial-style pendant light with vintage Edison bulb compatibility. Perfect for modern farmhouse and industrial décor.",
+        "features": ["Adjustable cord length", "Vintage industrial design", "Compatible with LED bulbs", "Easy installation", "Dimmable with compatible bulbs"],
+        "applications": ["Kitchen islands", "Dining rooms", "Bars and restaurants", "Loft spaces", "Entry ways"]
+      },
+      "dimensions": {
+        "shade_diameter_cm": 28,
+        "shade_height_cm": 22,
+        "canopy_diameter_cm": 12
+      },
+      "compliance": {
+        "ul_listed": true,
+        "warranty_years": 2
+      }
+    },
+    {
+      "sku": "SKU-COM-100",
+      "technical_specs": {
+        "voltage": "120-277V AC",
+        "wattage": "40W",
+        "lumens": 4800,
+        "color_temperature": "4000K Neutral White",
+        "lifespan_hours": 50000,
+        "certifications": ["UL", "DLC", "cUL"],
+        "dimensions": "600x600mm",
+        "dimmable": true,
+        "cri": 83,
+        "mounting": "Recessed grid ceiling"
+      },
+      "packaging": {
+        "unit_weight_kg": 2.1,
+        "case_qty": 4,
+        "case_dimensions_cm": [65, 65, 15],
+        "carton_weight_kg": 10.2,
+        "mounting_clips": "Included"
+      },
+      "marketing": {
+        "description": "LED troffer panel designed for commercial drop ceiling grids. Energy-efficient replacement for T8 fluorescent fixtures.",
+        "features": ["Direct grid ceiling mount", "Flicker-free operation", "Low glare design", "0-10V dimming", "50,000 hour lifespan"],
+        "applications": ["Office buildings", "Retail spaces", "Healthcare facilities", "Educational institutions", "Government buildings"]
+      },
+      "compliance": {
+        "rohs": true,
+        "dlc_standard": true,
+        "title_24": true,
+        "warranty_years": 5
+      }
+    },
+    {
+      "sku": "SKU-GRO-100",
+      "technical_specs": {
+        "voltage": "120V AC",
+        "wattage": "65W",
+        "ppfd": "850 μmol/m²/s at 12 inches",
+        "spectrum": "Full spectrum 380-780nm",
+        "lifespan_hours": 50000,
+        "coverage_area": "2x2 ft vegetative, 1.5x1.5 ft flowering",
+        "dimmable": true,
+        "cooling": "Passive aluminum heatsink",
+        "certifications": ["ETL", "CE", "RoHS"]
+      },
+      "packaging": {
+        "unit_weight_kg": 2.4,
+        "case_qty": 4,
+        "case_dimensions_cm": [35, 32, 18],
+        "carton_weight_kg": 11.8,
+        "hanging_kit": "Included"
+      },
+      "marketing": {
+        "description": "Full spectrum LED grow light optimized for all growth stages. Energy-efficient alternative to HPS grow lights.",
+        "features": ["Samsung LM301B LEDs", "Daisy chain capability", "Fanless silent operation", "Waterproof IP65", "Dimming 10-100%"],
+        "applications": ["Indoor gardening", "Hydroponics", "Grow tents", "Greenhouses", "Vertical farming"]
+      },
+      "spectrum_breakdown": {
+        "red_660nm": "30%",
+        "blue_450nm": "20%",
+        "white_3000k": "40%",
+        "ir_730nm": "10%"
+      },
+      "compliance": {
+        "rohs": true,
+        "etl_listed": true,
+        "warranty_years": 3
+      }
+    },
+    {
+      "sku": "SKU-AUT-100",
+      "technical_specs": {
+        "voltage": "12V DC",
+        "wattage": "32W per bulb",
+        "lumens": "4000 per bulb",
+        "color_temperature": "6000K Cool White",
+        "lifespan_hours": 30000,
+        "bulb_type": "H7",
+        "certifications": ["DOT", "CE"],
+        "beam_pattern": "Focused beam",
+        "waterproof_rating": "IP67"
+      },
+      "packaging": {
+        "unit_weight_kg": 0.22,
+        "units_per_set": 2,
+        "case_qty": 12,
+        "case_dimensions_cm": [28, 24, 18],
+        "carton_weight_kg": 3.2
+      },
+      "marketing": {
+        "description": "High-performance LED headlight bulbs for automotive use. Plug-and-play replacement for halogen H7 bulbs.",
+        "features": ["300% brighter than halogen", "6000K xenon white", "30,000 hour lifespan", "Built-in fan cooling", "Plug-and-play installation"],
+        "applications": ["Automotive headlights", "High beam", "Low beam", "Fog lights"]
+      },
+      "compatibility": {
+        "note": "Check vehicle compatibility before purchase",
+        "canbus_compatible": true
+      },
+      "compliance": {
+        "dot_approved": true,
+        "warranty_years": 2
+      }
+    },
+    {
+      "sku": "SKU-IND-100",
+      "technical_specs": {
+        "voltage": "120-277V AC",
+        "wattage": "40W",
+        "lumens": 5200,
+        "color_temperature": "5000K Daylight",
+        "lifespan_hours": 60000,
+        "certifications": ["UL", "cUL", "DLC"],
+        "length": "4 ft (1200mm)",
+        "dimmable": false,
+        "waterproof_rating": "IP65",
+        "impact_rating": "IK08"
+      },
+      "packaging": {
+        "unit_weight_kg": 1.8,
+        "case_qty": 8,
+        "case_dimensions_cm": [128, 15, 12],
+        "carton_weight_kg": 16.5,
+        "mounting_hardware": "Included"
+      },
+      "marketing": {
+        "description": "Industrial LED batten fixture designed for harsh environments. Dust and water resistant with impact protection.",
+        "features": ["Vapor-tight construction", "Polycarbonate lens", "Stainless steel clips", "Surface or pendant mount", "60,000 hour L70"],
+        "applications": ["Warehouses", "Cold storage", "Food processing", "Car washes", "Marine environments"]
+      },
+      "compliance": {
+        "rohs": true,
+        "dlc_premium": true,
+        "nsf_certified": true,
+        "warranty_years": 7
+      }
+    }
+  ],
+  "metadata": {
+    "last_updated": "2024-03-15T10:30:00Z",
+    "version": "1.2",
+    "total_products": 20,
+    "categories": [
+      "LED Bulbs",
+      "LED Tubes",
+      "LED Panels",
+      "Downlights",
+      "LED Strips",
+      "Floodlights",
+      "High Bay",
+      "Street Lighting",
+      "Track Lighting",
+      "Smart Lighting",
+      "Solar Lighting",
+      "Emergency Lighting",
+      "Fixtures",
+      "Commercial Lighting",
+      "Grow Lights",
+      "Automotive",
+      "Industrial"
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+# Build context = repo root, so excluded paths apply to everything
+.git
+.github
+.vscode
+.idea
+
+# Python
+**/__pycache__
+**/*.pyc
+**/*.pyo
+**/.pytest_cache
+**/.mypy_cache
+**/.ruff_cache
+**/venv
+**/.venv
+
+# Env / secrets
+**/.env
+**/.env.*
+!**/.env.example
+
+# Frontend (not needed for backend image)
+frontend/node_modules
+frontend/.next
+frontend/out
+frontend/dist
+
+# Local artifacts
+**/chroma_db
+**/*.log
+**/.DS_Store
+
+# Tests / docs (already excluded from runtime stage in Dockerfile)
+backend/tests
+docs
+plans
+README.md
