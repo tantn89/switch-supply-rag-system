@@ -1,4 +1,4 @@
-# Switch Supply Procurement RAG Assistant
+# Switch Supply Procurement RAG Assistant created by TanTran
 
 Multi-source Retrieval-Augmented Generation system for procurement intelligence. Built for the Switch Supply AI Engineer technical exam.
 
