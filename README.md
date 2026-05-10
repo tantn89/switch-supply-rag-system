@@ -3,9 +3,9 @@
 Multi-source Retrieval-Augmented Generation system for procurement intelligence. Built for the Switch Supply AI Engineer technical exam.
 
 **Live demo:**
-- Frontend: https://switch-supply-rag.vercel.app *(deploy pending)*
-- Backend API: https://switch-supply-rag-backend.onrender.com *(deploy pending)*
-- API docs: `/docs` on the backend
+- Frontend: https://switch-supply-rag.vercel.app
+- Backend API: https://switch-supply-rag-backend-1wz2.onrender.com
+- - API docs: `/docs` on the backend
 
 ## What it does
 
